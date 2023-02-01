@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-Mobile-Dark\ mode.jpg);
+  --bg-url: url(./assets/bg-Mobile-Dark.jpg);
   --stroker-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-Mobile-Light\ mode.jpg);
+  --bg-url: url(./assets/bg-Mobile-Light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
@@ -55,7 +55,7 @@ body * {
   width: 112px;
 }
 
-#prfile p {
+#profile p {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
@@ -164,7 +164,7 @@ footer {
   font-size: 14px;
 }
 
-/*@media (min-width: 700px) {
+@media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-Desktop.jpg);
   }
@@ -173,7 +173,7 @@ footer {
     --bg-url: url(./assets/bg-Desktop-Light.jpg);
   }
 }
-*/
+
 @keyframes slide-in {
   from {
     left: 0;
