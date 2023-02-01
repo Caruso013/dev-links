@@ -111,7 +111,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
+
   padding: 24px 0;
 }
 ul li a {
@@ -169,11 +169,11 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-Desktop.jpg);
+    --switch-bg-url: url(./assets/bg-Desktop.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-Desktop-Light.jpg);
+    --switch-bg-url: url(./assets/bg-Desktop-Light.jpg);
   }
 }
 
