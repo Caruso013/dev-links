@@ -164,7 +164,7 @@ footer {
   font-size: 14px;
 }
 
-@media (min-width: 700px) {
+/*@media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-Desktop.jpg);
   }
@@ -173,7 +173,7 @@ footer {
     --bg-url: url(./assets/bg-Desktop-Light.jpg);
   }
 }
-
+*/
 @keyframes slide-in {
   from {
     left: 0;
