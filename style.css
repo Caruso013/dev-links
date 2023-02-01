@@ -11,7 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(./assets/mon-stars.svg);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 .light {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./assets/mon-stars.svg);
 }
 
 body {
@@ -32,6 +32,7 @@ body {
   background-size: cover;
   */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -106,9 +107,11 @@ body * {
 /* Links - Lista*/
 ul {
   list-style: none;
+
   display: flex;
   flex-direction: column;
   gap: 16px;
+  
   padding: 24px 0;
 }
 ul li a {
