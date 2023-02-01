@@ -7,7 +7,7 @@ function toogleMode() {
 
   //substituir a image
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-Light.png")
+    img.setAttribute("src", "./assets/Avatar-Light.png")
   } else {
     img.setAttribute("src", "./assets/Avatar-Dark.png")
   }
