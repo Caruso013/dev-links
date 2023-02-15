@@ -23,4 +23,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-Made with ♥ by Pedro Domingos :wave:
+Made with ♥ by Pedro Domingos :waves:
